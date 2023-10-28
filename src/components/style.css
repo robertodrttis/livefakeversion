@@ -1,0 +1,284 @@
+.img-user {
+  width: 20px;
+}
+.camera-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.img-userp{
+    position: relative;
+    width: 45px;
+    height: 42px;
+    left: -7px;
+    top: -3px;
+}
+.img-user {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.img-seta {
+  left: 88px;
+  position: relative;
+  width: 44px;
+  top: -5px;
+  height: 44px;
+  border-radius: 50%;
+}
+.col-fixed {
+  position: fixed;
+  left: 0px;
+}
+.col-fixedt {
+  left: 50px;
+  position: relative;
+}
+.message-box {
+  position: absolute;
+  bottom: 62px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.color-back {
+  background-color: black;
+  padding-right: 132px;
+  padding-bottom: 0px;
+  height: 71px;
+  position: relative;
+  top: 15px;
+  left: -3px;
+}
+
+.message-comment {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.message-user {
+  position: absolute;
+  top: 10px; /* Move para o início da tela */
+  display: flex;
+  flex-direction: row;
+  left: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center; /* Alinha verticalmente */
+}
+.style-input {
+  width: 127%;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+  margin: 10px 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra leve para dar profundidade */
+  transition: background-color 0.3s ease;
+
+  /* Estilo para o placeholder */
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Estilo ao focar o input */
+  :focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.icon-overlay-mv {
+  position: absolute;
+  top: -2px;
+  right: 138px;
+  width: 60px;
+  height: 60px;
+}
+.icon-overlay-sr {
+  position: absolute;
+  top: -1px;
+  right: 47px;
+  width: 60px;
+  height: 60px;
+}
+.icon-overlay-fl {
+  position: absolute;
+  top: -2px;
+  right: 12px;
+  width: 60px;
+  height: 60px;
+}
+.icon-overlay {
+  position: absolute;
+  top: 9px;
+  right: 1px;
+  width: 45px;
+  height: 45px;
+}
+.icon-overlay {
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    width: 45px;
+    height: 45px;
+  }
+  .icon-overlay-au {
+    position: absolute;
+    top: -3px;
+    right: -4px;
+    width: 54px;
+    height: 55px;
+  }
+  .icon-overlay-vd{
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    width: 54px;
+    height: 55px;
+  }
+  .icon-overlay-tc{
+    position: absolute;
+    top: -18px;
+    right: -6px;
+    width: 58px;
+    height: 58px;
+  }
+  .icon-overlay {
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    width: 45px;
+    height: 45px;
+  }
+  .icon-overlay {
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    width: 45px;
+    height: 45px;
+  }
+.icon-overlay-g {
+  position: absolute;
+  top: -5px;
+  right: 93px;
+  width: 60px;
+  height: 60px;
+}
+.icon-overlay-fade {
+  position: absolute;
+  top: -29px;
+  right: -10px;
+  width: 66px;
+  height: 66px;
+}
+.text-userp {
+  position: relative;
+  top: -37px;
+  left: 44px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.text-p {
+  font-size: 17px;
+  font-weight: 600;
+}
+.text-sub {
+  margin-top: -17px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.icon {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: row;
+  right: 13px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.icon-video {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  right: 13px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.icon-troca {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+  right: 13px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.icon-fade {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: row;
+  right: 13px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.col-position {
+  margin-right: 40px;
+}
+.message-box {
+  transition: opacity 1s ease-in-out;
+}
+.box-live {
+  background-color: #e4085b;
+  padding: 7px 11px;
+  width: 71px;
+  position: relative;
+  left: 179px;
+  font-size: 12px;
+  border-radius: 8px;
+  top: -81px;
+}
+.img-eyes {
+    left: -35px;
+    position: relative;
+    width: 45px;
+    top: -30px;
+    height: 44px;
+  border-radius: 50%;
+}
+.numberbox {
+    padding: 7px 25px;
+    width: 57px;
+    position: relative;
+    height: 34px;
+    left: 257px;
+    font-size: 12px;
+    border-radius: 8px;
+    top: -130px;
+    background-color: #1f1f1f;
+}
